@@ -1,0 +1,22 @@
+{
+  "name": "syeteh",
+  "version": "1.0.0",
+  "description": "An actual student information system.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonrufino/syeteh.git"
+  },
+  "author": "Anton Rufino and Claudine Cassion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/antonrufino/syeteh/issues"
+  },
+  "homepage": "https://github.com/antonrufino/syeteh#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
