@@ -1,9 +1,11 @@
 'use strict';
+const importer = require('anytv-node-importer');
 
 module.exports = (router) => {
-    router.get('/', (req, res, next) => {
-        res.send('Hello world!');
-    });
+    const __ = importer.dirloadSync(__dirname + '/../controller');
+
+    router.get('/', __.hello.hello);
+    router.post('/hello/name', __.hello.helloName);
 
     return router;
 }
